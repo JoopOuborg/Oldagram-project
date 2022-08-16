@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 375px;
+    margin: 0 auto;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.avatar {
+    width: 34px;
+    border-radius: 50%;    
+}
+
+.nav--logo {
+    width: 130px;    
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+header div {
+    margin-left: 10px;
+}
+
+header p {
+    margin: 0;    
+}
+
+.main-img {
+    width: 100%;
+}
+
+section {
+    padding: 20px 10px;
+}
+
+section p {
+    margin-bottom: 0;
+}
+
+.icon {
+    width: 23px;
+    padding-right: 10px;
+}
+
+
+p.bold {
+    margin-bottom: 8px;
+}
+.comment {
+    display: inline;
+}
+
+.spacer {
+    width: 100%;
+    height: 10px;
+    background: lightgray;
+}
